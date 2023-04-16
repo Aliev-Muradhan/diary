@@ -28,12 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Addteachers));
             this.panel1 = new System.Windows.Forms.Panel();
             this.txb_search = new System.Windows.Forms.TextBox();
-            this.btn_clear = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.btn_refresh = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -46,21 +42,24 @@
             this.txb_ФИО = new System.Windows.Forms.TextBox();
             this.txb_ID = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.btn_save = new System.Windows.Forms.Button();
             this.btn_edit = new System.Windows.Forms.Button();
             this.btn_delete = new System.Windows.Forms.Button();
             this.btn_new_entry = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.btn_clear = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btn_refresh = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_clear)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_refresh)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -85,38 +84,6 @@
             this.txb_search.Size = new System.Drawing.Size(199, 32);
             this.txb_search.TabIndex = 4;
             this.txb_search.TextChanged += new System.EventHandler(this.txb_search_TextChanged);
-            // 
-            // btn_clear
-            // 
-            this.btn_clear.Image = ((System.Drawing.Image)(resources.GetObject("btn_clear.Image")));
-            this.btn_clear.Location = new System.Drawing.Point(666, 13);
-            this.btn_clear.Name = "btn_clear";
-            this.btn_clear.Size = new System.Drawing.Size(40, 38);
-            this.btn_clear.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btn_clear.TabIndex = 3;
-            this.btn_clear.TabStop = false;
-            this.btn_clear.Click += new System.EventHandler(this.btn_clear_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(778, 15);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(40, 35);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            // 
-            // btn_refresh
-            // 
-            this.btn_refresh.Image = ((System.Drawing.Image)(resources.GetObject("btn_refresh.Image")));
-            this.btn_refresh.Location = new System.Drawing.Point(723, 15);
-            this.btn_refresh.Name = "btn_refresh";
-            this.btn_refresh.Size = new System.Drawing.Size(40, 35);
-            this.btn_refresh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btn_refresh.TabIndex = 1;
-            this.btn_refresh.TabStop = false;
-            this.btn_refresh.Click += new System.EventHandler(this.btn_refresh_Click);
             // 
             // label1
             // 
@@ -241,16 +208,6 @@
             this.label2.Text = "Запись:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(13, 14);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(54, 46);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
-            // 
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -315,6 +272,48 @@
             this.label7.Text = "Управление записями";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::E_diary.Properties.Resources.книжка_2_transformed__1_;
+            this.pictureBox4.Location = new System.Drawing.Point(13, 14);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(54, 46);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
+            // 
+            // btn_clear
+            // 
+            this.btn_clear.Image = global::E_diary.Properties.Resources.Ластик;
+            this.btn_clear.Location = new System.Drawing.Point(666, 13);
+            this.btn_clear.Name = "btn_clear";
+            this.btn_clear.Size = new System.Drawing.Size(40, 38);
+            this.btn_clear.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btn_clear.TabIndex = 3;
+            this.btn_clear.TabStop = false;
+            this.btn_clear.Click += new System.EventHandler(this.btn_clear_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::E_diary.Properties.Resources.лупа_2_transformed;
+            this.pictureBox2.Location = new System.Drawing.Point(778, 15);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(40, 35);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            // 
+            // btn_refresh
+            // 
+            this.btn_refresh.Image = global::E_diary.Properties.Resources.перезагрусить;
+            this.btn_refresh.Location = new System.Drawing.Point(723, 15);
+            this.btn_refresh.Name = "btn_refresh";
+            this.btn_refresh.Size = new System.Drawing.Size(40, 35);
+            this.btn_refresh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btn_refresh.TabIndex = 1;
+            this.btn_refresh.TabStop = false;
+            this.btn_refresh.Click += new System.EventHandler(this.btn_refresh_Click);
+            // 
             // Addteachers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -330,14 +329,14 @@
             this.Load += new System.EventHandler(this.Addteachers_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btn_clear)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btn_refresh)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_clear)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_refresh)).EndInit();
             this.ResumeLayout(false);
 
         }

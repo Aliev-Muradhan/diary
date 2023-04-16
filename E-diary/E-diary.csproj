@@ -244,12 +244,53 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\точка.png" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\свернкть.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\развернуть.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ластик.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\авторизация_2-transformed %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\глазок-transformed %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\глазок_2-transformed %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\добавить-transformed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\перезагрусить.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\лупа_2-transformed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\книжка_2-transformed %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\меню.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Расписание_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Учителя_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Студенты_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\УчЗаведение.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

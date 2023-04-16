@@ -28,34 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(АвторизацияForm));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnClear = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.txlogin = new System.Windows.Forms.TextBox();
             this.txpassword = new System.Windows.Forms.TextBox();
             this.btnEnter = new System.Windows.Forms.Button();
             this.btnHide = new System.Windows.Forms.PictureBox();
+            this.btnClear = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnShow = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnClear)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnHide)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnClear)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnShow)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(22, 55);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(83, 77);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // panel1
             // 
@@ -75,17 +64,6 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Авторизация";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // btnClear
-            // 
-            this.btnClear.Image = ((System.Drawing.Image)(resources.GetObject("btnClear.Image")));
-            this.btnClear.Location = new System.Drawing.Point(246, 17);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(55, 48);
-            this.btnClear.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnClear.TabIndex = 0;
-            this.btnClear.TabStop = false;
-            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // label2
             // 
@@ -138,7 +116,7 @@
             // 
             // btnHide
             // 
-            this.btnHide.Image = ((System.Drawing.Image)(resources.GetObject("btnHide.Image")));
+            this.btnHide.Image = global::E_diary.Properties.Resources.глазок_transformed__2_;
             this.btnHide.Location = new System.Drawing.Point(325, 265);
             this.btnHide.Name = "btnHide";
             this.btnHide.Size = new System.Drawing.Size(41, 29);
@@ -147,9 +125,30 @@
             this.btnHide.TabStop = false;
             this.btnHide.Click += new System.EventHandler(this.btnHide_Click);
             // 
+            // btnClear
+            // 
+            this.btnClear.Image = global::E_diary.Properties.Resources.Ластик;
+            this.btnClear.Location = new System.Drawing.Point(246, 17);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(55, 48);
+            this.btnClear.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnClear.TabIndex = 0;
+            this.btnClear.TabStop = false;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::E_diary.Properties.Resources.авторизация_2_transformed__2_;
+            this.pictureBox1.Location = new System.Drawing.Point(22, 55);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(83, 77);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // btnShow
             // 
-            this.btnShow.Image = ((System.Drawing.Image)(resources.GetObject("btnShow.Image")));
+            this.btnShow.Image = global::E_diary.Properties.Resources.глазок_2_transformed__1_;
             this.btnShow.Location = new System.Drawing.Point(325, 265);
             this.btnShow.Name = "btnShow";
             this.btnShow.Size = new System.Drawing.Size(41, 29);
@@ -175,10 +174,10 @@
             this.Name = "АвторизацияForm";
             this.Text = "АвторизацияForm";
             this.Load += new System.EventHandler(this.АвторизацияForm_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.btnClear)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnHide)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnClear)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnShow)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

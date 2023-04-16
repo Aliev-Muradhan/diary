@@ -426,7 +426,7 @@
             // 
             // btn_clear
             // 
-            this.btn_clear.Image = ((System.Drawing.Image)(resources.GetObject("btn_clear.Image")));
+            this.btn_clear.Image = global::E_diary.Properties.Resources.Ластик;
             this.btn_clear.Location = new System.Drawing.Point(697, 6);
             this.btn_clear.Name = "btn_clear";
             this.btn_clear.Size = new System.Drawing.Size(40, 36);

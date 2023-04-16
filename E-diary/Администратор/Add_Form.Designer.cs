@@ -28,18 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Add_Form));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txb_ФИО = new System.Windows.Forms.TextBox();
             this.txb_Пароль = new System.Windows.Forms.TextBox();
             this.txb_Телефон = new System.Windows.Forms.TextBox();
             this.btnSave = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -56,7 +55,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Image = global::E_diary.Properties.Resources.Ластик;
             this.pictureBox2.Location = new System.Drawing.Point(264, 15);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(42, 37);
@@ -105,16 +104,6 @@
             this.label5.Text = "Телефон";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(34, 25);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(123, 93);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // txb_ФИО
             // 
             this.txb_ФИО.Location = new System.Drawing.Point(227, 185);
@@ -148,6 +137,16 @@
             this.btnSave.Text = "Сохранить";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::E_diary.Properties.Resources.добавить_transformed;
+            this.pictureBox1.Location = new System.Drawing.Point(34, 25);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(123, 93);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // Add_Form
             // 

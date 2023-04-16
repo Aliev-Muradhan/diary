@@ -118,10 +118,55 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="авторизация_2-transformed (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\авторизация_2-transformed (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="меню" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\меню.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="добавить-transformed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\добавить-transformed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="книжка_2-transformed (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\книжка_2-transformed (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="точка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\точка.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ластик" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ластик.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="свернкть" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\свернкть.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Студенты_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Студенты_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="глазок_2-transformed (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\глазок_2-transformed (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="глазок-transformed (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\глазок-transformed (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Расписание_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Расписание_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="авторизация_2-transformed (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\авторизация_2-transformed (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="перезагрусить" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\перезагрусить.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="лупа_2-transformed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\лупа_2-transformed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="развернуть" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\развернуть.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Учителя_26px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Учителя_26px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="УчЗаведение" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\УчЗаведение.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
